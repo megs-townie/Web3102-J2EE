@@ -1,0 +1,117 @@
+.container-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #D9A689;
+    box-shadow: 2px 3px 4px rgba(20, 17, 15, 0.55);
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1A3140;
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#category {
+    width: 12rem;
+    margin: 10px auto;
+    padding: 7px;
+    font-family: 'Arial', sans-serif;
+
+}
+
+#category:hover,
+option:hover {
+    cursor: pointer;
+}
+
+.title-and-list {
+    display: flex;
+    flex-direction: column;
+}
+
+#list-default {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #1A3140;
+}
+
+#list-loop {
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#welcome {
+    font-family: 'Arial', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #1A3140;
+}
+
+.container-header-links {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.container-header-links a {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #1A3140;
+    margin-left: 10px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: #F2F1EB;
+    height: 200px;
+
+
+
+}
+
+.product-card-body {
+    width: 400px;
+    padding-left: 20px;
+
+    font-family: 'Arial', sans-serif;
+    color: #1A3140;
+}
+
+.product-card-body h2 {
+    margin: 15px 0;
+    padding-bottom: 15px;
+
+}
+
+.product-card-body p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.btns {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.btns a {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1A3140;
+    margin: 10px;
+}

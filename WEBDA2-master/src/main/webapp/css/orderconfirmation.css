@@ -1,0 +1,56 @@
+.container {
+    width: 700px;
+    background-color: #F2F1EB;
+    border: 1px solid #F2F1EB;
+    margin: 70px auto;
+
+}
+
+.container h1 {
+    font-family: 'Arial', sans-serif;
+
+    padding-bottom: 10px;
+}
+
+.container h2 {
+    font-family: 'Arial', sans-serif;
+}
+
+.container p {
+    font-family: 'Arial', sans-serif;
+    margin: 4px;
+}
+
+#delivery-info {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#name {
+    font-weight: bold;
+}
+
+#btns {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Arial', sans-serif;
+}
+
+#btns input {
+    background-color: #BF4E24;
+    border: none;
+    width: 150px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #BF4E24;
+    font-size: 16px;
+    color: #F2F1EB;
+    margin: 10px;
+
+}
+
+#btns input:hover {
+    cursor: pointer;
+    transition: .2s ease-in;
+    transform: scale(1.05);
+}

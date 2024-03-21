@@ -1,0 +1,81 @@
+#form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F1EB;
+    width: 500px;
+    margin: 100px auto;
+
+}
+
+#form-container-header {
+    display: flex;
+    flex-direction: row;
+}
+
+#profile-icon {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+#form-container-header-title {
+    font-family: 'Arial', sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #1A3140;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+
+#error-msg {
+    color: #fc2413;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+input {
+    padding: 10px 20px;
+    font-family: 'Arial', sans-serif;
+    width: 300px;
+    margin: 5px;
+    border-radius: 25px;
+    border: 1px solid #9b9b9b;
+    color: #1f1f1f;
+}
+
+#btn {
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    width: 325px;
+    margin: 15px;
+    border-radius: 25px;
+    border: 1px solid #9b9b9b;
+    background-color: #BF4E24;
+    color: #F2F1EB;
+    box-shadow: 0px 2px 6px -1px rgb(31, 31, 31);
+}
+
+#btn:hover {
+    cursor: pointer;
+}
+
+#reg-link {
+    font-family: 'Arial', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #1f1f1f;
+    margin-bottom: 40px;
+}
+
+#reg-link a {
+    text-decoration: none;
+    color: #F2F1EB;
+}
